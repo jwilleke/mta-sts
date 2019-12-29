@@ -22,3 +22,33 @@ Github URL:
 
 Custom Domain URL:
 <https://mta-sts.willeke.com/.well-known/mta-sts.txt>
+
+## Testing
+
+Testing GitHub DNS
+
+```bash
+dig jwilleke.github.io +nostats +nocomments +nocmd
+
+; <<>> DiG 9.10.6 <<>> jwilleke.github.io +nostats +nocomments +nocmd
+;; global options: +cmd
+;jwilleke.github.io.		IN	A
+jwilleke.github.io.	3599	IN	A	185.199.111.153
+jwilleke.github.io.	3599	IN	A	185.199.109.153
+jwilleke.github.io.	3599	IN	A	185.199.110.153
+jwilleke.github.io.	3599	IN	A	185.199.108.153
+```
+Command appearsa to be working.
+
+Testing willeke DNS
+
+```bash
+dig mta-sts.willeke.com +nostats +nocomments +nocmd
+
+; <<>> DiG 9.10.6 <<>> jwilleke.github.ioo +nostats +nocomments +nocmd
+;; global options: +cmd
+;jwilleke.github.ioo.		IN	A
+.			86391	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2019122901 1800 900 604800 86400
+```
+
+Command is FAILING bnut gets to github.
