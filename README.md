@@ -15,6 +15,10 @@ _smtp._tls v=TLSRPTv1;rua=mailto:reports@willeke.com;
 
 Content should be as in file [docs/.well-known/mta-sts.txt](docs/.well-known/mta-sts.txt)
 
-### Custom Domain
+### URLs
 
+Github URL:
+<https://jwilleke.github.io/mta-sts/.well-known/mta-sts.txt>
+
+Custom Domain URL:
 <https://mta-sts.willeke.com/.well-known/mta-sts.txt>
