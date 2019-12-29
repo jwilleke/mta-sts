@@ -11,5 +11,8 @@ _smtp._tls v=TLSRPTv1;rua=mailto:reports@willeke.com;
 
 ## Policy file
 
-<https://mta-sts.willeke.com/.well-known/mta-sts.txt>
 Content should be as in file [docs/.well-known/mta-sts.txt](docs/.well-known/mta-sts.txt)
+
+### Custom Domain
+
+<https://mta-sts.willeke.com/.well-known/mta-sts.txt>
