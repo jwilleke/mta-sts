@@ -52,3 +52,17 @@ dig mta-sts.willeke.com +nostats +nocomments +nocmd
 ```
 
 Command is FAILING bnut gets to github.
+
+### Testing Domain Forwarding
+
+<https://jwilleke.github.io/mta-sts/index.html>
+
+Github URL Seems to work:
+
+<https://jwilleke.github.io/mta-sts/.well-known/mta-sts.txt>
+
+fails with File Not Found.
+
+Likwise mta-sts.willeke.com
+
+<https://mta-sts.willeke.com/index.html>
