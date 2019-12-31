@@ -1,1 +1,6 @@
-include: [".well-known"]
+include:
+  - "mta-sts/.well-known/mta-sts.txt"
+  - "docs/mta-sts/.well-known/mta-sts.txt"
+  - "mta-sts.txt"
+  - ".well-known"
+  - ".well-known/"
