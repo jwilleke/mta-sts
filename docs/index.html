@@ -1,3 +1,6 @@
+---
+# front matter tells Jekyll to process Liquid
+---
 <!doctype html>
 <html>
   <head>
@@ -5,5 +8,8 @@
   </head>
   <body>
     <p>You are probably looking for <a href=".well-known/mta-sts.txt">.well-known/mta-sts.txt</p>
+    <footer>
+      <small>Built at {{ site.time }}.</small>
+    </footer>
   </body>
 </html>
