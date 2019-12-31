@@ -61,8 +61,8 @@ Github URL Seems to work:
 
 <https://jwilleke.github.io/mta-sts/.well-known/mta-sts.txt>
 
-fails with File Not Found.
-
-Likwise mta-sts.willeke.com
+These work but not with TLS:
+<http://mta-sts.willeke.com/mta-sts/.well-known/mta-sts.txt>
+<https://mta-sts.willeke.com/mta-sts/.well-known/mta-sts.txt>
 
 <https://mta-sts.willeke.com/index.html>
