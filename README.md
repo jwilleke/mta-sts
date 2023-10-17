@@ -63,7 +63,7 @@ Github URL Seems to work:
 <https://jwilleke.github.io/mta-sts/.well-known/mta-sts.txt>
 
 These work but not with TLS:
-<http://mta-sts.willeke.com/mta-sts/.well-known/mta-sts.txt>
-<https://mta-sts.willeke.com/mta-sts/.well-known/mta-sts.txt>
+- <http://mta-sts.willeke.com/mta-sts/.well-known/mta-sts.txt>
+- <https://mta-sts.willeke.com/mta-sts/.well-known/mta-sts.txt>
 
-<https://mta-sts.willeke.com/index.html>
+- <https://mta-sts.willeke.com/index.html>
